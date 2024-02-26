@@ -159,9 +159,66 @@
 // }
 
 // - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
+
+// let days = prompt('Enter number of day')
+// switch (days){
+//     case '1':
+//         console.log('Monday');
+//         break;
+//     case '2':
+//         console.log('Tuesday');
+//         break;
+//     case '3':
+//         console.log('Wednesday');
+//         break;
+//     case '4':
+//         console.log('Thursday');
+//         break;
+//     case '5':
+//         console.log('Friday');
+//         break;
+//     case '6':
+//         console.log('Saturday');
+//         break;
+//     case '7':
+//         console.log('Sunday');
+//         break;
+// }
+
+// let days = +prompt('Enter number of day')
+// switch (days){
+//     case 1:
+//         console.log('Monday');
+//         break;
+//     case 2:
+//         console.log('Tuesday');
+//         break;
+//     case 3:
+//         console.log('Wednesday');
+//         break;
+//     case 4:
+//         console.log('Thursday');
+//         break;
+//     case 5:
+//         console.log('Friday');
+//         break;
+//     case 6:
+//         console.log('Saturday');
+//         break;
+//     case 7:
+//         console.log('Sunday');
+//         break;
+// }
+
 // - Користувач вводить або має два числа.
 //     Потрібно знайти та вивести максимальне число з тих двох .
 //     Також потрібно врахувати коли введені рівні числа.
+
+
+
 // - є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
 //     за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподібні, тобто приводиться до false)
+
+
+
 // - з файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray. За допомоги іф перевірити кожен його елемент на тривалість навчання. У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".
