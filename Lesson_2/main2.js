@@ -11,22 +11,25 @@
 //     -123,
 //     88,
 //     (22)];
-// console.log(arr)
+//
+// // arr[10] = 'I am going to drink coffee right now' // Додавання нового елементу в масив
+// // let crush = arr.push('new element') // Додавання нового елементу в масив
+//
 // console.log(arr[0])
-// // alert(arr[0])
 // console.log(arr[1])
 // console.log(arr[2])
 // console.log(arr[3])
-// // arr[3]()
 // console.log(arr[4])
 // console.log(arr[5])
 // console.log(arr[6])
 // console.log(arr[7])
 // console.log(arr[8])
 // console.log(arr[9])
-// console.log(typeof (22))
-// arr[10] = 'I am going to drink coffee right now'
-// console.log(arr[10])
+//
+// // console.log(typeof (22)) // Визначення типу даних
+// // alert(arr[0]) // Викликання модального вікна з першим елементом у списку
+// // arr[3]() // Функція alert
+// // console.log(arr)// Виведення в консоль всього масиву
 
 
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
@@ -160,7 +163,7 @@
 
 // - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
 
-// let days = prompt('Enter number of day')
+// let days = prompt('Enter sequence number of day')
 // switch (days){
 //     case '1':
 //         console.log('Monday');
@@ -185,7 +188,7 @@
 //         break;
 // }
 
-// let days = +prompt('Enter number of day')
+// let days = +prompt('Enter sequence number of day')
 // switch (days){
 //     case 1:
 //         console.log('Monday');
@@ -214,11 +217,56 @@
 //     Потрібно знайти та вивести максимальне число з тих двох .
 //     Також потрібно врахувати коли введені рівні числа.
 
-
+// let number1 = +prompt('Введіть перше число');
+// let number2 = +prompt('Введіть друге число');
+// if (number2 == number1){
+//     document.write('<h2>Числа рівні</h2>')
+//     console.log(`${number1} = ${number2}`)
+//     confirm(`${number1} - це число є рівним ${number2}`)
+// } else if (number1 > number2){
+//     document.write('<h2>Перше число більше за друге</h2>')
+//     console.log(number1)
+//     confirm(`${number1} - більше за ${number2}`)
+// } else if (number2 > number1){
+//     document.write('<h2>Друге число більше за перше</h2>')
+//     console.log(number2)
+//     confirm(`${number2} - більше за ${number1}`)
+// }
 
 // - є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
 //     за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподібні, тобто приводиться до false)
 
+// let x = 0 || 'default';
+// console.log(x);
 
 
 // - з файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray. За допомоги іф перевірити кожен його елемент на тривалість навчання. У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".
+
+// let coursesAndDurationArray = [
+//     {title: 'JavaScript Complex', monthDuration: 5},
+//     {title: 'Java Complex', monthDuration: 6},
+//     {title: 'Python Complex', monthDuration: 6},
+//     {title: 'QA Complex', monthDuration: 4},
+//     {title: 'FullStack', monthDuration: 7},
+//     {title: 'Frontend', monthDuration: 4}
+// ];
+// if (coursesAndDurationArray[0].monthDuration > 5){
+//     console.log(`${coursesAndDurationArray[0].title} "Супер"`)
+// }
+// if (coursesAndDurationArray[1].monthDuration > 5){
+//     console.log(`${coursesAndDurationArray[1].title} "Супер"`)
+// }
+// if (coursesAndDurationArray[2].monthDuration > 5){
+//     console.log(`${coursesAndDurationArray[2].title} "Супер"`)
+// }
+// if (coursesAndDurationArray[3].monthDuration > 5){
+//     console.log(`${coursesAndDurationArray[3].title} "Супер"`)
+//
+// }
+// if (coursesAndDurationArray[4].monthDuration > 5){
+//     console.log(`${coursesAndDurationArray[4].title} "Супер"`)
+//
+// }
+// if (coursesAndDurationArray[5].monthDuration > 5){
+//     console.log(`${coursesAndDurationArray[5].title} "Супер"`)
+// }
