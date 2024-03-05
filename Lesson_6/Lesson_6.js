@@ -31,16 +31,20 @@
 // - Перевести до нижнього регістру настипні стрінгові значення
 // 'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
 
-let x2 = 'HELLO WORLD';
-let toLowerCase = x2.toLowerCase();
-console.log(toLowerCase);
-
-let y2 = 'LOREM IPSUM'
-let toLowerCase2 = y2.toLowerCase();
-console.log(toLowerCase2);
-
-let z3 = 'JAVASCRIPT IS COOL'
-let toLowerCase3 = z3.toLowerCase();
-console.log(toLowerCase3);
+// let x2 = 'HELLO WORLD';
+// let toLowerCase = x2.toLowerCase();
+// console.log(toLowerCase);
+//
+// let y2 = 'LOREM IPSUM'
+// let toLowerCase2 = y2.toLowerCase();
+// console.log(toLowerCase2);
+//
+// let z3 = 'JAVASCRIPT IS COOL'
+// let toLowerCase3 = z3.toLowerCase();
+// console.log(toLowerCase3);
 
 // - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
+
+let str = ' dirty string   '
+console.log(str.replaceAll(' ', '!'));
+console.log(str.substring(str.indexOf(' ') + 1, str.lastIndexOf(' ')))
